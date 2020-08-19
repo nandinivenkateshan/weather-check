@@ -127,7 +127,7 @@ export const data = {
     "Kamloops",
     "Clarence-Rockland",
     "Mississauga",
-    "Brant"
+    "Brant",
   ],
   Russia: [
     "Moscow",
@@ -160,5 +160,5 @@ export const data = {
     "Tomsk",
     "Orenburg",
     "Izhevsk",
-  ]
+  ],
 };

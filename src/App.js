@@ -8,8 +8,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function App() {
   const [country, setCountry] = useState("");
-const handleCountry = name =>  setCountry(name)
-
+  const handleCountry = (name) => setCountry(name);
 
   return (
     <Container fluid="true">
@@ -23,7 +22,7 @@ const handleCountry = name =>  setCountry(name)
           className="bg-dark"
           style={{ position: "fixed", top: "65px" }}
         >
-          <SideBar onCountry={name => handleCountry(name)} />
+          <SideBar onCountry={(name) => handleCountry(name)} />
         </Col>
 
         <Col

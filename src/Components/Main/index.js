@@ -4,17 +4,17 @@ import Card from "../card";
 import { data } from "../Data";
 
 function Main({ country }) {
-  return (country ? (
+  return country ? (
     <Row>
-      {data[country].map((item,index) => {
+      {data[country].map((item, index) => {
         return (
-          <Col md={4} key={item+index}>
-                <Card city={item}/>
+          <Col md={4} key={item + index}>
+            <Card city={item} />
           </Col>
         );
       })}
     </Row>
-  ) : null)
+  ) : null;
 }
 
 export default Main;
